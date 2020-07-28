@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F766CDD024D058A400C0A7EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F766CDCF24D058A400C0A7EB /* AppDelegate.swift */; };
+		F766CDD224D058A400C0A7EB /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F766CDD124D058A400C0A7EB /* SceneDelegate.swift */; };
+		F766CDD424D058A400C0A7EB /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F766CDD324D058A400C0A7EB /* ContentView.swift */; };
+		F766CDD624D058A500C0A7EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F766CDD524D058A500C0A7EB /* Assets.xcassets */; };
+		F766CDD924D058A500C0A7EB /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F766CDD824D058A500C0A7EB /* Preview Assets.xcassets */; };
+		F766CDDC24D058A500C0A7EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F766CDDA24D058A500C0A7EB /* LaunchScreen.storyboard */; };
 		F7BDD69224BA0BFF00FF7BBD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7BDD69124BA0BFF00FF7BBD /* AppDelegate.swift */; };
 		F7BDD69424BA0BFF00FF7BBD /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7BDD69324BA0BFF00FF7BBD /* SceneDelegate.swift */; };
 		F7BDD69624BA0BFF00FF7BBD /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F7BDD69524BA0BFF00FF7BBD /* ContentView.swift */; };
@@ -24,6 +30,14 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F766CDCD24D058A400C0A7EB /* SwiftUIBJLearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUIBJLearning.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F766CDCF24D058A400C0A7EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		F766CDD124D058A400C0A7EB /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		F766CDD324D058A400C0A7EB /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F766CDD524D058A500C0A7EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F766CDD824D058A500C0A7EB /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F766CDDB24D058A500C0A7EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F766CDDD24D058A500C0A7EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		F7BDD68E24BA0BFF00FF7BBD /* SwiftUILearning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftUILearning.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F7BDD69124BA0BFF00FF7BBD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F7BDD69324BA0BFF00FF7BBD /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -45,6 +59,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		F766CDCA24D058A400C0A7EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F7BDD68B24BA0BFF00FF7BBD /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -62,11 +83,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F766CDCE24D058A400C0A7EB /* SwiftUIBJLearning */ = {
+			isa = PBXGroup;
+			children = (
+				F766CDCF24D058A400C0A7EB /* AppDelegate.swift */,
+				F766CDD124D058A400C0A7EB /* SceneDelegate.swift */,
+				F766CDD324D058A400C0A7EB /* ContentView.swift */,
+				F766CDD524D058A500C0A7EB /* Assets.xcassets */,
+				F766CDDA24D058A500C0A7EB /* LaunchScreen.storyboard */,
+				F766CDDD24D058A500C0A7EB /* Info.plist */,
+				F766CDD724D058A500C0A7EB /* Preview Content */,
+			);
+			path = SwiftUIBJLearning;
+			sourceTree = "<group>";
+		};
+		F766CDD724D058A500C0A7EB /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F766CDD824D058A500C0A7EB /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
 		F7BDD68524BA0BFF00FF7BBD = {
 			isa = PBXGroup;
 			children = (
 				F7BDD69024BA0BFF00FF7BBD /* SwiftUILearning */,
 				F7BDD6AE24BAB32C00FF7BBD /* SwiftUIAnimation */,
+				F766CDCE24D058A400C0A7EB /* SwiftUIBJLearning */,
 				F7BDD68F24BA0BFF00FF7BBD /* Products */,
 			);
 			sourceTree = "<group>";
@@ -76,6 +120,7 @@
 			children = (
 				F7BDD68E24BA0BFF00FF7BBD /* SwiftUILearning.app */,
 				F7BDD6AD24BAB32C00FF7BBD /* SwiftUIAnimation.app */,
+				F766CDCD24D058A400C0A7EB /* SwiftUIBJLearning.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -129,6 +174,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		F766CDCC24D058A400C0A7EB /* SwiftUIBJLearning */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F766CDE024D058A500C0A7EB /* Build configuration list for PBXNativeTarget "SwiftUIBJLearning" */;
+			buildPhases = (
+				F766CDC924D058A400C0A7EB /* Sources */,
+				F766CDCA24D058A400C0A7EB /* Frameworks */,
+				F766CDCB24D058A400C0A7EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftUIBJLearning;
+			productName = SwiftUIBJLearning;
+			productReference = F766CDCD24D058A400C0A7EB /* SwiftUIBJLearning.app */;
+			productType = "com.apple.product-type.application";
+		};
 		F7BDD68D24BA0BFF00FF7BBD /* SwiftUILearning */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = F7BDD6A224BA0C0000FF7BBD /* Build configuration list for PBXNativeTarget "SwiftUILearning" */;
@@ -169,10 +231,13 @@
 		F7BDD68624BA0BFF00FF7BBD /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 1150;
+				LastSwiftUpdateCheck = 1160;
 				LastUpgradeCheck = 1150;
 				ORGANIZATIONNAME = ShenYj;
 				TargetAttributes = {
+					F766CDCC24D058A400C0A7EB = {
+						CreatedOnToolsVersion = 11.6;
+					};
 					F7BDD68D24BA0BFF00FF7BBD = {
 						CreatedOnToolsVersion = 11.5;
 					};
@@ -196,11 +261,22 @@
 			targets = (
 				F7BDD68D24BA0BFF00FF7BBD /* SwiftUILearning */,
 				F7BDD6AC24BAB32C00FF7BBD /* SwiftUIAnimation */,
+				F766CDCC24D058A400C0A7EB /* SwiftUIBJLearning */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		F766CDCB24D058A400C0A7EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F766CDDC24D058A500C0A7EB /* LaunchScreen.storyboard in Resources */,
+				F766CDD924D058A500C0A7EB /* Preview Assets.xcassets in Resources */,
+				F766CDD624D058A500C0A7EB /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F7BDD68C24BA0BFF00FF7BBD /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -224,6 +300,16 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		F766CDC924D058A400C0A7EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F766CDD024D058A400C0A7EB /* AppDelegate.swift in Sources */,
+				F766CDD224D058A400C0A7EB /* SceneDelegate.swift in Sources */,
+				F766CDD424D058A400C0A7EB /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		F7BDD68A24BA0BFF00FF7BBD /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -249,6 +335,14 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
+		F766CDDA24D058A500C0A7EB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F766CDDB24D058A500C0A7EB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
 		F7BDD69C24BA0C0000FF7BBD /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -268,6 +362,48 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		F766CDDE24D058A500C0A7EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIBJLearning/Preview Content\"";
+				DEVELOPMENT_TEAM = KS5QTFAS57;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SwiftUIBJLearning/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.ShenYj.-SwiftUI.BJLearning.SwiftUIBJLearning";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F766CDDF24D058A500C0A7EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"SwiftUIBJLearning/Preview Content\"";
+				DEVELOPMENT_TEAM = KS5QTFAS57;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = SwiftUIBJLearning/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "cn.ShenYj.-SwiftUI.BJLearning.SwiftUIBJLearning";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		F7BDD6A024BA0C0000FF7BBD /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -467,6 +603,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		F766CDE024D058A500C0A7EB /* Build configuration list for PBXNativeTarget "SwiftUIBJLearning" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F766CDDE24D058A500C0A7EB /* Debug */,
+				F766CDDF24D058A500C0A7EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		F7BDD68924BA0BFF00FF7BBD /* Build configuration list for PBXProject "SwiftUILearning" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
