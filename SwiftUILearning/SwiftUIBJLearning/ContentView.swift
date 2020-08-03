@@ -9,13 +9,26 @@
 import SwiftUI
 
 struct ContentView: View {
+    
     var body: some View {
-        Text("Hello, World!")
+        LoginView { (account, password) in
+            print("点击登录 账号是: \(account) 密码是: \(password)")
+//            ZStack {
+//                NavigationLink(destination: Text("新页面")) {
+//                    EmptyView()
+//                }
+//                .hidden()
+//            }
+        }
     }
 }
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
-        ContentView()
+        NavigationView {
+            ContentView()
+                .navigationBarTitle("BJ学习平台" , displayMode: .inline)
+                .navigationBarHidden(true)
+        }
     }
 }
