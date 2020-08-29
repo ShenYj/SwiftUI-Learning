@@ -88,6 +88,7 @@
 		F766CDCE24D058A400C0A7EB /* SwiftUIBJLearning */ = {
 			isa = PBXGroup;
 			children = (
+				F769111624E2D667002F7BA4 /* Network */,
 				F766CDCF24D058A400C0A7EB /* AppDelegate.swift */,
 				F766CDD124D058A400C0A7EB /* SceneDelegate.swift */,
 				F766CDD324D058A400C0A7EB /* ContentView.swift */,
@@ -106,6 +107,13 @@
 				F766CDD824D058A500C0A7EB /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F769111624E2D667002F7BA4 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Network;
 			sourceTree = "<group>";
 		};
 		F7BDD68524BA0BFF00FF7BBD = {
